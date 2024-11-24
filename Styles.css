@@ -29,10 +29,26 @@ body {
   font-size: 24px;
 }
 
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.heading-container i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in;
+}
+
+.heading-container i:hover {
+  transform: scale(0.9);
+}
+
 .sidebar-title {
   font-size: 24px;
   text-align: center;
-  margin-bottom: 20px;
   font-weight: bold;
   color: #f4a261;
 }
