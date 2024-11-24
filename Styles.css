@@ -25,3 +25,47 @@ body {
   font-weight: bold;
   color: #f4a261;
 }
+
+.sidebar p {
+  font-size: 16px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar p:hover {
+  background-color: #444;
+  color: #f4a261;
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn button {
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn button:hover {
+  background-color: #e76f51;
+  transform: scale(1.05);
+}
+
+.btn span {
+  color: white;
+  margin: 0 10px;
+  font-size: 16px;
+}
