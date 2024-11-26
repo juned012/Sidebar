@@ -65,34 +65,45 @@ body {
   color: #f4a261;
 }
 
+.linkIcon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .btn {
   position: absolute;
   bottom: 20px;
-  left: 50px;
+  left: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.btn button {
+.btnIcon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
   background-color: #f4a261;
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 100;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.btn button:hover {
+.btnIcon-container:hover {
   background-color: #e76f51;
   transform: scale(1.05);
 }
 
 .btn span {
-  color: white;
+  color: #929292;
   margin: 0 10px;
   font-size: 16px;
 }
